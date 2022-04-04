@@ -1,7 +1,14 @@
 console.log('This practice is for arrays!');
 
 let bagel = ['bacon', 'lettuce', 'tomato'];
-
+/*Array methods
+.push(newElement) - adds item to the end of the array
+.length - number of elements in array
+.indexOf(searchItem) - will give index number of the searched for item in the array. If time is not in the array will return -1
+.pop() - removes the last item of the array
+.unshift() - adds item to beginning of the array
+.shift() - removes the first item of the array
+*/
 bagel[bagel.length - 1];
 // ^ will give me the last item in the arrays
 
@@ -67,3 +74,26 @@ for (card of hand) {
     console.log('another one beotch!');
   }
 }
+
+// TEAMWORK - QUESTIONS AND RESEARCH
+
+/*1. search 2. store 3. share
+
+ Searching for questions on google - 
+  '10 tab rule' - open a bunch of tabs to find what im looking for
+  advance search option to hone in on subject
+  not always clear what I'm looking for so use a number of options
+    -apply labels to keep content division relevant 
+      store in an easy to search place
+
+      Share tools or content in Slack, or post my own questions there as well
+      
+-Remeber to use quotation marks when searching for an exact string
+-use the minus (-) operator next to excluded words. ie: washington -d.c.
+site - will search a specific site ie: nasa
+* will fill in the blank for me
+filetype will give only the specific filetype .pdf
+*/
+
+
+
